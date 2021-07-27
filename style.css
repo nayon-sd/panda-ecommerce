@@ -20,11 +20,49 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+/* CATEGORIES PART STYEL */
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+.cat1{
+    background-color: #FF136F;
+}
+.cat2{
+    background-color: #FF589B;
+}
+.cat3{
+    background-color: #FF136F;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 110px;
+}
 
+/* SHOES SECTION STYLEING */
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/* BAGPACK SECTION STYLEING */
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
 
-
-
-
-
-
-
+/* subscrive-section-style */
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.subscribe-inner{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+}
